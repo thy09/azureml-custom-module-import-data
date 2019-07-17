@@ -1,5 +1,5 @@
 name: Import torchvision dataset
-id: 90393344-7e12-4179-927d-2d318cf416cb
+id: 90393344-7e12-4179-927e-2d318cf40909
 category: Import Data/torchvision
 description: Import torch dataset as a folder.
 inputs:
