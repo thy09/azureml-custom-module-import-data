@@ -6,7 +6,7 @@ from azure.storage.blob import BlockBlobService
 
 def import_data_from_blob(account_name, account_key, container, data_folder, output_folder):
     if not os.path.exists(output_folder):
-        os.mkdir(output_folder)
+        os.makedirs(output_folder)
     blob_service = BlockBlobService(account_name=account_name, account_key=account_key)
     prefix_len = len(data_folder)
     for blob_path in blob_service.list_blob_names(container, prefix=data_folder):
