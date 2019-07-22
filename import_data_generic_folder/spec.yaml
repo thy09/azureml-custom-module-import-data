@@ -53,3 +53,7 @@ implementation:
     - inputValue: Data Folder
     - --output-folder
     - outputPath: Output Folder
+  invoking:
+    module: import_data_generic_folder.main
+    class: PlaceHolder
+    func: placeholder
